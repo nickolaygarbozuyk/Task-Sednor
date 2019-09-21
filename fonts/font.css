@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'proximanovalight';
+    src: url('proximanova-light.eot');
+    src: local('proximanovalight'),
+    url('proximanova-light.woff') format('woff'),
+    url('proximanova-light.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'proximaNovaRegular';
+    src: url('proximanova-regular.eot');
+    src: local('proximaNovaRegular'),
+    url('proximanova-regular.woff') format('woff'),
+    url('proximanova-regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'proxima_novasemibold';
+    src: url('proximanova-bold.eot');
+    src: url('proximanova-bold.woff2') format('woff2'),
+    url('proximanova-bold.woff') format('woff'),
+    url('proximanova-bold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+
+}

@@ -1,0 +1,151 @@
+/*specification*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -moz-transition: all 0.3s ease;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+}
+
+p {
+    margin-bottom: 0;
+    color: #919294;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+a, a:hover, a:active, a:focus,
+button, input, button:hover, button:active, button:focus,
+input:focus, input:active {
+    text-decoration: none;
+    outline: none;
+    color: #919294;
+}
+
+body {
+    font-family: 'proximanovalight', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+/*HEADER*/
+
+.header {
+    padding-left: 300px;
+}
+
+
+.title {
+    font-family: 'proxima_novasemibold', sans-serif;
+}
+
+.header__title {
+    margin: 0;
+    padding-top: 33px;
+    font-size: 2.2rem;
+    line-height: 200%;
+}
+.header__wrapper{
+    border-bottom: 2px solid #919294;
+}
+.burger-menu {
+    display: none;
+}
+
+.logo {
+    width: auto;
+    color: #919294;
+    padding: 35px 30px;
+}
+
+.brand-logo {
+    height: auto;
+    max-width: 100%;
+    width: 190px;
+}
+
+.sidenav__main{
+    padding: 10px 30px 0 30px;
+    overflow: hidden;
+}
+.collapsible__title{
+    font-size: 1.55rem;
+}
+.collapsible__wrapper{
+    padding-top: 45px;
+}
+.collapsible__title-item{
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #4f386e;
+}
+
+.collapsible__item{
+    padding-bottom: 25px;
+}
+.collapsible__content_opacity{
+    opacity: 0.5;
+}
+.collapsible__content a:hover{
+    color: #00b9c5;
+    opacity: 1;
+}
+.collapsible__wrapper li{
+    padding-bottom: 15px;
+}
+.arrow {
+    width: 10px;
+    margin: 0 10px;
+}
+
+.sidenav {
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    background: #f6f7f9;
+}
+.sidenav:hover{
+    overflow-y: auto;
+}
+
+/*MAIN*/
+main {
+    padding-left: 300px;
+}
+.img-item{
+    width: 50%;
+}
+.box-content{
+    padding-left: 50px;
+    max-width:90%;
+    font-family: 'proximaNovaRegular', sans-serif;
+}
+.wrapper{
+    padding-top: 25px;
+}
+.description{
+    padding-top: 25px;
+}
+.link{
+    color: #993399;
+    display: block;
+}
+.box-content__link{
+    padding-top: 25px;
+}
+.box-content__link:hover{
+    color: #634468;
+}
